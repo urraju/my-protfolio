@@ -20,3 +20,8 @@
         border-radius:  60% 40% 30% 70%/60% 30% 70% 40%;
     }
  }
+
+ .img-hover:hover{
+    transform: scale(1.1);
+    transition: .4s ;
+ }
