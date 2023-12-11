@@ -15,7 +15,7 @@ const About = () => {
       <TitleContent heading={"About Me"} subHeading={"My Introduction"} />
       <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row items-center mt-20 md:gap-32 gap-10 justify-center">
         <div>
-          <img className="w-96 rounded-2xl" src={aboutPic} alt="" />
+          <img className="w-96 rounded-2xl border border-sky-500 border-opacity-40" src={aboutPic} alt="" />
         </div>
         {/* about title  */}
         <div>
