@@ -4,7 +4,7 @@ import { MdNearMe } from "react-icons/md";
 const Banner = () => {
   return (
     <div className="mx-w-screen-2xl h-[600px]   mx-auto lg:p-5 p-2">
-      <div className="flex justify-evenly  items-center">
+      <div className="flex justify-evenly flex-col-reverse md:flex-row  items-center">
         <div>
             {/* <div>
                  <a href=""><FaInstagram /></a>
