@@ -26,9 +26,9 @@ const Navbar = () => {
       </NavLink>
       <NavLink
         className={({ isActive }) => (isActive ? "text-sky-500" : "")}
-        to="/skill"
+        to="/skills"
       >
-        Skill
+        Skills
       </NavLink>
       <NavLink
         className={({ isActive }) => (isActive ? "text-sky-500" : "")}
@@ -42,7 +42,7 @@ const Navbar = () => {
   return (
     <div className="">
       <div className=" lg:max-w-screen-2xl  mx-auto  top-0  md:px-0">
-        <div className="navbar lg:max-w-screen-2xl fixed  bg-black/30 px-8  rounded-xl  backdrop-blur text-white z-30">
+        <div className="navbar lg:max-w-screen-2xl fixed  bg-black/30 px-8  rounded-xl top-0 backdrop-blur text-white z-30">
           <div className="navbar-start">
             <div className="dropdown">
               <label

@@ -4,9 +4,9 @@ import { MdNearMe } from "react-icons/md";
 import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
 const Banner = () => {
   return (
-    <div className="mx-w-screen-2xl h-[600px]   mx-auto lg:p-5 p-2">
-      <div className="flex justify-evenly flex-col-reverse md:flex-row  items-center">
-        <div className="flex gap-20 items-center">
+    <div className="mx-w-screen-2xl h-[600px] mt-20  mx-auto lg:p-5 p-2">
+      <div className="flex justify-evenly gap-10 flex-col-reverse md:flex-row  items-center">
+        <div className="flex gap-4 md:gap-20 ">
             <div className="flex flex-col gap-y-10">
                  <a href="https://www.instagram.com/urrajuahmed_/"><FaInstagram className="text-xl text-sky-500" /></a>
                  <a href="https://www.facebook.com/profile.php?id=100007355355842"><FaFacebook className="text-xl text-sky-500" /></a>
@@ -16,7 +16,7 @@ const Banner = () => {
             <h1 className="text-4xl text-white  mb-3">Hi, I'm UR Raju</h1>
 
             <TypeAnimation
-              className="text-sky-500 font-poppins text-sm mb-2 mt-1"
+              className="text-sky-500 font-poppins text-sm  mb-2 mt-1"
               sequence={[
                 "Fornt End Developer",
                 1000,
