@@ -6,7 +6,6 @@ import TitleContent from "../TitleContent/TitleContent";
 import { FaArrowCircleRight, FaArrowRight, FaGithub } from "react-icons/fa";
 import { BsArrowRightShort } from "react-icons/bs";
 
-import { MdArrowRight } from "react-icons/md";
 const Portfolio = () => {
   return (
     <div className="p-2 md:p-5 my-20">
