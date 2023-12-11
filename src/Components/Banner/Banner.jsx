@@ -1,5 +1,6 @@
 import profile from "../../assets/myPic/profile.png";
 import { TypeAnimation } from "react-type-animation";
+import { MdNearMe } from "react-icons/md";
 const Banner = () => {
   return (
     <div className="mx-w-screen-2xl h-[600px]   mx-auto lg:p-5 p-2">
@@ -33,11 +34,11 @@ const Banner = () => {
               I'm creative frontend developer, and I'm <br /> very passionate dedicated
               to my work
             </p>
-            <button className="bg-sky-600 mt-5 px-4 py-2 rounded text-white">Say Hello</button>
+            <button className="bg-sky-600 mt-5 px-4 py-2 flex items-center justify-center gap-2 rounded text-white">Say Hello <MdNearMe className="text-lg rounded-lg"/></button>
           </div>
         </div>
         <div className="mt-20 ">
-          <img className=" home_img w-[400px] rounded-tl-3xl border-opacity-20 shadow-2xl border-8 border-sky-500" src={profile} alt="" />
+          <img className="home_img w-[400px] rounded-tl-3xl border-opacity-20 shadow-2xl border-8 border-sky-500" src={profile} alt="" />
         </div>
       </div>
     </div>

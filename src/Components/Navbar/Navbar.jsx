@@ -54,7 +54,7 @@ const Navbar = () => {
             <NavLink to="/" className="  ">
               <div className="flex items-center ">
                 <a className="uppercase text-3xl font-poppins first-letter:text-4xl" href="">
-                  <span className="text-rose-500 font-semibold ">UR</span> Raju
+                  <span className="text-sky-500 font-semibold ">UR</span> Raju
                 </a>
               </div>
             </NavLink>
@@ -66,7 +66,7 @@ const Navbar = () => {
           </div>
 
           <div className="navbar-end flex gap-2 items-center">
-            <button className="bg-rose-500 text-white px-4 py-1 rounded font-poppins">Contact Me</button>
+            <button className="bg-sky-500 text-white px-4 py-1 rounded font-poppins">Contact Me</button>
           </div>
         </div>
       </div>
