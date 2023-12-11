@@ -4,27 +4,27 @@ const Navbar = () => {
   const navbar = (
     <>
       <NavLink
-        className={({ isActive }) => (isActive ? "text-yellow-400" : "")}
+        className={({ isActive }) => (isActive ? "text-sky-500" : "")}
         to="/"
       >
         Home
       </NavLink>
 
       <NavLink
-        className={({ isActive }) => (isActive ? "text-yellow-400" : "")}
+        className={({ isActive }) => (isActive ? "text-sky-500" : "")}
         to="/about"
       >
         About
       </NavLink>
 
       <NavLink
-        className={({ isActive }) => (isActive ? "text-yellow-400" : "")}
+        className={({ isActive }) => (isActive ? "text-sky-500" : "")}
         to="/service"
       >
         Service
       </NavLink>
       <NavLink
-        className={({ isActive }) => (isActive ? "text-yellow-400" : "")}
+        className={({ isActive }) => (isActive ? "text-sky-500" : "")}
         to="/skill"
       >
         Skill

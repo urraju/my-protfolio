@@ -61,28 +61,28 @@ const Contact = () => {
           <h1 className="text-center mb-8 text-2xl uppercase">Contact Email</h1>
           <div className="">
             <form ref={form} onSubmit={sendEmail}>
-              <div className="border border-gray-500 w-96 mb-4 rounded-lg px-3 py-3">
+              <div className="border border-gray-500 md:w-96 mb-4 rounded-lg px-3 py-3">
                 {" "}
                 <input
-                  className="outline-none w-80 text-lg block bg-transparent"
+                  className="outline-none md:w-80 text-lg block bg-transparent"
                   type="text"
                   name="user_name"
                   placeholder="Insert Your Name"
                 />
               </div>
 
-              <div className="border border-gray-500 relative mb-4 w-96  rounded-lg px-3 py-3">
+              <div className="border border-gray-500 relative mb-4 md:w-96  rounded-lg px-3 py-3">
                 <input
-                  className="outline-none w-80  text-lg block bg-transparent"
+                  className="outline-none md:w-80  text-lg block bg-transparent"
                   type="email"
                   name="user_email"
                   placeholder="Enter Email"
                 />
               </div>
 
-              <div className="border border-gray-500 relative mb-4 w-96  rounded-lg px-3 py-3">
+              <div className="border border-gray-500 relative mb-4 md:w-96  rounded-lg px-3 py-3">
                 <textarea 
-                className="outline-none text-lg w-80 block bg-transparent"
+                className="outline-none text-lg md:w-80 block bg-transparent"
                 placeholder="Write Your Message" />
               </div>
               <input className="px-4 p-2 w-full text-gray-300 font-semibold bg-sky-700 uppercase rounded" type="submit" value="Send Message"/>

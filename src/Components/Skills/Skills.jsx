@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <div className="lg:p-5 p-2 my-20">
       <TitleContent heading={"Skills"} subHeading={"My technical level"} />
-      <div className="max-w-screen-2xl mt-16 mx-auto  flex  items-center flex-col md:flex-row  justify-center gap-20">
+      <div className="max-w-screen-2xl mt-16 mx-auto  flex  items-center flex-col md:flex-row  justify-center md:gap-20 gap-5">
         <div className="p-5 border rounded border-sky-500  border-opacity-50 md:px-16 w-full md:w-[500px] ">
           <h1 className="text-center mb-7 text-white text-2xl">Frontend Developer</h1>
 
@@ -78,8 +78,8 @@ const Skills = () => {
 
         </div>
         {/* backend  */}
-        <div className=" ">
-        <div className="p-5 border rounded border-sky-500  border-opacity-50 md:px-16  md:w-[500px] ">
+         
+        <div className="p-5 border rounded border-sky-500  border-opacity-50 md:px-16 w-full md:w-[500px] ">
           <h1 className="text-center mb-7 text-white text-2xl">Backend Developer</h1>
 
           <div className="flex justify-between">
@@ -135,7 +135,7 @@ const Skills = () => {
         </div>
         </div>
       </div>
-    </div>
+     
   );
 };
 export default Skills;
