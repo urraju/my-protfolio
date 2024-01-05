@@ -49,7 +49,7 @@ const ServiceSection = () => {
             Branding <br />
             Designer
           </h1>
-          <button onClick={handleModal3} className="flex text-sm  hover:tracking-wider duration-300 mt-4 items-center gap-1 ">
+          <button onClick={handleModal3} className="flex text-sm hover:tracking-wider duration-300 mt-4 items-center gap-1 ">
             View More <BsArrowRightShort className="text-lg mt-1" />{" "}
           </button>
         </div>
