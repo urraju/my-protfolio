@@ -5,6 +5,7 @@ import NotFound from "../Components/NotFound/NotFound";
 import About from "../Components/About/About";
 import Skills from "../Components/Skills/Skills";
 import Portfolio from "../Components/Portfolio/Portfolio";
+import ServiceSection from "../Components/Service/ServiceSection";
 
 
 const router = createBrowserRouter([
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
             {
                 path : 'skills',
                 element : <Skills/>
+            },
+            {
+                path : 'servicesection',
+                element : <ServiceSection/>
             },
             {
                 path : 'portfolio',

@@ -2,7 +2,7 @@ import TitleContent from "../TitleContent/TitleContent";
 
 const Qualification = () => {
   return (
-    <div className="md:p-5 p-2 my-20 hidden md:block">
+    <div className="md:p-5 p-2 my- hidden md:block">
       <TitleContent
         heading={"Qualification"}
         subHeading={"My personal journey"}

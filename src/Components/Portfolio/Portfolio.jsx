@@ -3,7 +3,7 @@ import ass11 from "../../assets/portfolio/ass11.png";
 import ass10 from "../../assets/portfolio/ass10.png";
 import ass9 from "../../assets/portfolio/ass9.png";
 import TitleContent from "../TitleContent/TitleContent";
-import { FaArrowCircleRight, FaArrowRight, FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { BsArrowRightShort } from "react-icons/bs";
 
 const Portfolio = () => {

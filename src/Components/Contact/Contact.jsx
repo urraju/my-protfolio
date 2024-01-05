@@ -30,7 +30,7 @@ const Contact = () => {
       );
   };
   return (
-    <div className="md:p-5 p-2 my-20">
+    <div className="md:p-5 p-2 my-10">
         <Toaster/>
       <TitleContent heading={"Get in Tuch"} subHeading={"Contact me"} />
       <div className="flex mt-20  flex-col md:flex-row justify-center gap-20">

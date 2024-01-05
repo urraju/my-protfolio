@@ -20,7 +20,7 @@ const Navbar = () => {
 
       <NavLink
         className={({ isActive }) => (isActive ? "text-sky-500" : "")}
-        to="/service"
+        to="/servicesection"
       >
         Service
       </NavLink>

@@ -6,7 +6,7 @@ import {
   MdHeadsetMic,
   MdWorkspacePremium,
 } from "react-icons/md";
-import resume from '../../assets/resume/Riad Hasan Raju (1).pdf'
+import resume from '../../assets/resume/Riad Hasan Raju (5).pdf'
 
 import TitleContent from "../TitleContent/TitleContent";
 const About = () => {
